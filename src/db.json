@@ -1,0 +1,502 @@
+[
+  {
+    "product_name": "Awesome Phone 1",
+    "product_thumb": "https://logodownload.org/wp-content/uploads/2022/04/javascript-logo-0.png",
+    "product_description": "Awesome Phone 1 is a great product.",
+    "product_price": 499,
+    "product_quantity": 50,
+    "product_type": "Phone",
+    "product_attributes": { "color": "Black", "brand": "Awesome", "storage_capacity": "128GB", "screen_size": "6.5 inches", "battery_capacity": "3000mAh" },
+    "isPublished": true
+  },
+  {
+    "product_name": "Smart Watch 2",
+    "product_thumb": "https://logodownload.org/wp-content/uploads/2022/04/javascript-logo-0.png",
+    "product_description": "Smart Watch 2 is a great product.",
+    "product_price": 199,
+    "product_quantity": 75,
+    "product_type": "Watch",
+    "product_attributes": { "color": "Silver", "watch_brand": "Smart", "band_material": "Silicone", "watch_type": "Smartwatch", "water_resistant": true },
+    "isPublished": true
+  },
+  {
+    "product_name": "High-Tech Tablet 3",
+    "product_thumb": "https://logodownload.org/wp-content/uploads/2022/04/javascript-logo-0.png",
+    "product_description": "High-Tech Tablet 3 is a great product.",
+    "product_price": 349,
+    "product_quantity": 30,
+    "product_type": "Tablet",
+    "product_attributes": { "color": "Gray", "tablet_brand": "High-Tech", "storage_capacity": "64GB", "screen_size": "10 inches", "operating_system": "Android" },
+    "isPublished": true
+  },
+  {
+    "product_name": "Stylish Accessory 4",
+    "product_thumb": "https://logodownload.org/wp-content/uploads/2022/04/javascript-logo-0.png",
+    "product_description": "Stylish Accessory 4 is a great product.",
+    "product_price": 29,
+    "product_quantity": 100,
+    "product_type": "Accessory",
+    "product_attributes": { "accessory_type": "Charger", "brand": "Stylish", "color": "White", "material": "Plastic" },
+    "isPublished": true
+  },
+  {
+    "product_name": "Premium Phone 5",
+    "product_thumb": "https://logodownload.org/wp-content/uploads/2022/04/javascript-logo-0.png",
+    "product_description": "Premium Phone 5 is a great product.",
+    "product_price": 799,
+    "product_quantity": 20,
+    "product_type": "Phone",
+    "product_attributes": { "color": "Gold", "brand": "Premium", "storage_capacity": "256GB", "screen_size": "6.8 inches", "battery_capacity": "4500mAh" },
+    "isPublished": true
+  },
+  {
+    "product_name": "Luxury Watch 6",
+    "product_thumb": "https://logodownload.org/wp-content/uploads/2022/04/javascript-logo-0.png",
+    "product_description": "Luxury Watch 6 is a great product.",
+    "product_price": 599,
+    "product_quantity": 15,
+    "product_type": "Watch",
+    "product_attributes": { "color": "Black", "watch_brand": "Luxury", "band_material": "Leather", "watch_type": "Analog", "water_resistant": true },
+    "isPublished": true
+  },
+  {
+    "product_name": "Budget Tablet 7",
+    "product_thumb": "https://logodownload.org/wp-content/uploads/2022/04/javascript-logo-0.png",
+    "product_description": "Budget Tablet 7 is a great product.",
+    "product_price": 149,
+    "product_quantity": 80,
+    "product_type": "Tablet",
+    "product_attributes": { "color": "Blue", "tablet_brand": "Budget", "storage_capacity": "32GB", "screen_size": "8 inches", "operating_system": "iOS" },
+    "isPublished": true
+  },
+  {
+    "product_name": "Essential Accessory 8",
+    "product_thumb": "https://logodownload.org/wp-content/uploads/2022/04/javascript-logo-0.png",
+    "product_description": "Essential Accessory 8 is a great product.",
+    "product_price": 19,
+    "product_quantity": 150,
+    "product_type": "Accessory",
+    "product_attributes": { "accessory_type": "Headphones", "brand": "Essential", "color": "Red", "material": "Metal" },
+    "isPublished": true
+  },
+  {
+    "product_name": "NextGen Phone 9",
+    "product_thumb": "https://logodownload.org/wp-content/uploads/2022/04/javascript-logo-0.png",
+    "product_description": "NextGen Phone 9 is a great product.",
+    "product_price": 899,
+    "product_quantity": 10,
+    "product_type": "Phone",
+    "product_attributes": { "color": "Silver", "brand": "NextGen", "storage_capacity": "512GB", "screen_size": "6.9 inches", "battery_capacity": "5000mAh" },
+    "isPublished": true
+  },
+  {
+    "product_name": "Fitness Watch 10",
+    "product_thumb": "https://logodownload.org/wp-content/uploads/2022/04/javascript-logo-0.png",
+    "product_description": "Fitness Watch 10 is a great product.",
+    "product_price": 249,
+    "product_quantity": 60,
+    "product_type": "Watch",
+    "product_attributes": { "color": "Green", "watch_brand": "Fitness", "band_material": "Fabric", "watch_type": "Digital", "water_resistant": false },
+    "isPublished": true
+  },
+  {
+    "product_name": "Pro Tablet 11",
+    "product_thumb": "https://logodownload.org/wp-content/uploads/2022/04/javascript-logo-0.png",
+    "product_description": "Pro Tablet 11 is a great product.",
+    "product_price": 499,
+    "product_quantity": 25,
+    "product_type": "Tablet",
+    "product_attributes": { "color": "Black", "tablet_brand": "Pro", "storage_capacity": "128GB", "screen_size": "12 inches", "operating_system": "Windows" },
+    "isPublished": true
+  },
+  {
+    "product_name": "Cool Accessory 12",
+    "product_thumb": "https://logodownload.org/wp-content/uploads/2022/04/javascript-logo-0.png",
+    "product_description": "Cool Accessory 12 is a great product.",
+    "product_price": 39,
+    "product_quantity": 90,
+    "product_type": "Accessory",
+    "product_attributes": { "accessory_type": "Case", "brand": "Cool", "color": "Black", "material": "Rubber" },
+    "isPublished": true
+  },
+  {
+    "product_name": "Compact Phone 13",
+    "product_thumb": "https://logodownload.org/wp-content/uploads/2022/04/javascript-logo-0.png",
+    "product_description": "Compact Phone 13 is a great product.",
+    "product_price": 399,
+    "product_quantity": 40,
+    "product_type": "Phone",
+    "product_attributes": { "color": "Pink", "brand": "Compact", "storage_capacity": "64GB", "screen_size": "5.5 inches", "battery_capacity": "3000mAh" },
+    "isPublished": true
+  },
+  {
+    "product_name": "Elegant Watch 14",
+    "product_thumb": "https://logodownload.org/wp-content/uploads/2022/04/javascript-logo-0.png",
+    "product_description": "Elegant Watch 14 is a great product.",
+    "product_price": 349,
+    "product_quantity": 35,
+    "product_type": "Watch",
+    "product_attributes": { "color": "Rose Gold", "watch_brand": "Elegant", "band_material": "Stainless Steel", "watch_type": "Analog", "water_resistant": true },
+    "isPublished": true
+  },
+  {
+    "product_name": "Versatile Tablet 15",
+    "product_thumb": "https://logodownload.org/wp-content/uploads/2022/04/javascript-logo-0.png",
+    "product_description": "Versatile Tablet 15 is a great product.",
+    "product_price": 299,
+    "product_quantity": 45,
+    "product_type": "Tablet",
+    "product_attributes": { "color": "White", "tablet_brand": "Versatile", "storage_capacity": "128GB", "screen_size": "10.5 inches", "operating_system": "Android" },
+    "isPublished": true
+  },
+  {
+    "product_name": "Fun Accessory 16",
+    "product_thumb": "https://logodownload.org/wp-content/uploads/2022/04/javascript-logo-0.png",
+    "product_description": "Fun Accessory 16 is a great product.",
+    "product_price": 25,
+    "product_quantity": 110,
+    "product_type": "Accessory",
+    "product_attributes": { "accessory_type": "Portable Charger", "brand": "Fun", "color": "Yellow", "material": "Plastic" },
+    "isPublished": true
+  },
+  {
+    "product_name": "Sleek Phone 17",
+    "product_thumb": "https://logodownload.org/wp-content/uploads/2022/04/javascript-logo-0.png",
+    "product_description": "Sleek Phone 17 is a great product.",
+    "product_price": 599,
+    "product_quantity": 15,
+    "product_type": "Phone",
+    "product_attributes": { "color": "Silver", "brand": "Sleek", "storage_capacity": "256GB", "screen_size": "6.4 inches", "battery_capacity": "4000mAh" },
+    "isPublished": true
+  },
+  {
+    "product_name": "Classic Watch 18",
+    "product_thumb": "https://logodownload.org/wp-content/uploads/2022/04/javascript-logo-0.png",
+    "product_description": "Classic Watch 18 is a great product.",
+    "product_price": 249,
+    "product_quantity": 30,
+    "product_type": "Watch",
+    "product_attributes": { "color": "Black", "watch_brand": "Classic", "band_material": "Leather", "watch_type": "Analog", "water_resistant": false },
+    "isPublished": true
+  },
+  {
+    "product_name": "Powerful Tablet 19",
+    "product_thumb": "https://logodownload.org/wp-content/uploads/2022/04/javascript-logo-0.png",
+    "product_description": "Powerful Tablet 19 is a great product.",
+    "product_price": 399,
+    "product_quantity": 20,
+    "product_type": "Tablet",
+    "product_attributes": { "color": "Gray", "tablet_brand": "Powerful", "storage_capacity": "256GB", "screen_size": "11 inches", "operating_system": "iOS" },
+    "isPublished": true
+  },
+  {
+    "product_name": "Practical Accessory 20",
+    "product_thumb": "https://logodownload.org/wp-content/uploads/2022/04/javascript-logo-0.png",
+    "product_description": "Practical Accessory 20 is a great product.",
+    "product_price": 15,
+    "product_quantity": 130,
+    "product_type": "Accessory",
+    "product_attributes": { "accessory_type": "USB Cable", "brand": "Practical", "color": "Black", "material": "Nylon" },
+    "isPublished": true
+  },
+  {
+    "product_name": "Durable Phone 21",
+    "product_thumb": "https://logodownload.org/wp-content/uploads/2022/04/javascript-logo-0.png",
+    "product_description": "Durable Phone 21 is a great product.",
+    "product_price": 699,
+    "product_quantity": 8,
+    "product_type": "Phone",
+    "product_attributes": { "color": "Dark Blue", "brand": "Durable", "storage_capacity": "512GB", "screen_size": "6.7 inches", "battery_capacity": "4500mAh" },
+    "isPublished": true
+  },
+  {
+    "product_name": "Trendy Watch 22",
+    "product_thumb": "https://logodownload.org/wp-content/uploads/2022/04/javascript-logo-0.png",
+    "product_description": "Trendy Watch 22 is a great product.",
+    "product_price": 199,
+    "product_quantity": 60,
+    "product_type": "Watch",
+    "product_attributes": { "color": "Pink", "watch_brand": "Trendy", "band_material": "Silicone", "watch_type": "Smartwatch", "water_resistant": true },
+    "isPublished": true
+  },
+  {
+    "product_name": "Innovative Tablet 23",
+    "product_thumb": "https://logodownload.org/wp-content/uploads/2022/04/javascript-logo-0.png",
+    "product_description": "Innovative Tablet 23 is a great product.",
+    "product_price": 349,
+    "product_quantity": 25,
+    "product_type": "Tablet",
+    "product_attributes": { "color": "Black", "tablet_brand": "Innovative", "storage_capacity": "128GB", "screen_size": "10 inches", "operating_system": "Android" },
+    "isPublished": true
+  },
+  {
+    "product_name": "Unique Accessory 24",
+    "product_thumb": "https://logodownload.org/wp-content/uploads/2022/04/javascript-logo-0.png",
+    "product_description": "Unique Accessory 24 is a great product.",
+    "product_price": 49,
+    "product_quantity": 90,
+    "product_type": "Accessory",
+    "product_attributes": { "accessory_type": "Bluetooth Speaker", "brand": "Unique", "color": "Blue", "material": "Plastic" },
+    "isPublished": true
+  },
+  {
+    "product_name": "Affordable Phone 25",
+    "product_thumb": "https://logodownload.org/wp-content/uploads/2022/04/javascript-logo-0.png",
+    "product_description": "Affordable Phone 25 is a great product.",
+    "product_price": 299,
+    "product_quantity": 40,
+    "product_type": "Phone",
+    "product_attributes": { "color": "White", "brand": "Affordable", "storage_capacity": "64GB", "screen_size": "5.8 inches", "battery_capacity": "3500mAh" },
+    "isPublished": true
+  },
+  {
+    "product_name": "Minimalist Watch 26",
+    "product_thumb": "https://logodownload.org/wp-content/uploads/2022/04/javascript-logo-0.png",
+    "product_description": "Minimalist Watch 26 is a great product.",
+    "product_price": 129,
+    "product_quantity": 55,
+    "product_type": "Watch",
+    "product_attributes": { "color": "Gray", "watch_brand": "Minimalist", "band_material": "Leather", "watch_type": "Analog", "water_resistant": false },
+    "isPublished": true
+  },
+  {
+    "product_name": "Advanced Tablet 27",
+    "product_thumb": "https://logodownload.org/wp-content/uploads/2022/04/javascript-logo-0.png",
+    "product_description": "Advanced Tablet 27 is a great product.",
+    "product_price": 599,
+    "product_quantity": 20,
+    "product_type": "Tablet",
+    "product_attributes": { "color": "Black", "tablet_brand": "Advanced", "storage_capacity": "256GB", "screen_size": "12 inches", "operating_system": "Windows" },
+    "isPublished": true
+  },
+  {
+    "product_name": "Gadget Accessory 28",
+    "product_thumb": "https://logodownload.org/wp-content/uploads/2022/04/javascript-logo-0.png",
+    "product_description": "Gadget Accessory 28 is a great product.",
+    "product_price": 99,
+    "product_quantity": 100,
+    "product_type": "Accessory",
+    "product_attributes": { "accessory_type": "Smartphone Stand", "brand": "Gadget", "color": "Red", "material": "Metal" },
+    "isPublished": true
+  },
+  {
+    "product_name": "Smartphone X 29",
+    "product_thumb": "https://logodownload.org/wp-content/uploads/2022/04/javascript-logo-0.png",
+    "product_description": "Smartphone X 29 is a great product.",
+    "product_price": 749,
+    "product_quantity": 15,
+    "product_type": "Phone",
+    "product_attributes": { "color": "Black", "brand": "Smartphone", "storage_capacity": "256GB", "screen_size": "6.1 inches", "battery_capacity": "4500mAh" },
+    "isPublished": true
+  },
+  {
+    "product_name": "Smartwatch Y 30",
+    "product_thumb": "https://logodownload.org/wp-content/uploads/2022/04/javascript-logo-0.png",
+    "product_description": "Smartwatch Y 30 is a great product.",
+    "product_price": 199,
+    "product_quantity": 50,
+    "product_type": "Watch",
+    "product_attributes": { "color": "Blue", "watch_brand": "Smartwatch", "band_material": "Silicone", "watch_type": "Smartwatch", "water_resistant": true },
+    "isPublished": true
+  },
+  {
+    "product_name": "Tablet Z 31",
+    "product_thumb": "https://logodownload.org/wp-content/uploads/2022/04/javascript-logo-0.png",
+    "product_description": "Tablet Z 31 is a great product.",
+    "product_price": 349,
+    "product_quantity": 30,
+    "product_type": "Tablet",
+    "product_attributes": { "color": "Gray", "tablet_brand": "Tablet", "storage_capacity": "128GB", "screen_size": "10 inches", "operating_system": "Android" },
+    "isPublished": true
+  },
+  {
+    "product_name": "Accessory A 32",
+    "product_thumb": "https://logodownload.org/wp-content/uploads/2022/04/javascript-logo-0.png",
+    "product_description": "Accessory A 32 is a great product.",
+    "product_price": 29,
+    "product_quantity": 90,
+    "product_type": "Accessory",
+    "product_attributes": { "accessory_type": "Cable", "brand": "Accessory", "color": "Black", "material": "Nylon" },
+    "isPublished": true
+  },
+  {
+    "product_name": "Phone Model A 33",
+    "product_thumb": "https://logodownload.org/wp-content/uploads/2022/04/javascript-logo-0.png",
+    "product_description": "Phone Model A 33 is a great product.",
+    "product_price": 499,
+    "product_quantity": 40,
+    "product_type": "Phone",
+    "product_attributes": { "color": "White", "brand": "Phone", "storage_capacity": "128GB", "screen_size": "6.5 inches", "battery_capacity": "3000mAh" },
+    "isPublished": true
+  },
+  {
+    "product_name": "Watch Model B 34",
+    "product_thumb": "https://logodownload.org/wp-content/uploads/2022/04/javascript-logo-0.png",
+    "product_description": "Watch Model B 34 is a great product.",
+    "product_price": 249,
+    "product_quantity": 60,
+    "product_type": "Watch",
+    "product_attributes": { "color": "Black", "watch_brand": "Watch", "band_material": "Leather", "watch_type": "Analog", "water_resistant": true },
+    "isPublished": true
+  },
+  {
+    "product_name": "Tablet Model C 35",
+    "product_thumb": "https://logodownload.org/wp-content/uploads/2022/04/javascript-logo-0.png",
+    "product_description": "Tablet Model C 35 is a great product.",
+    "product_price": 399,
+    "product_quantity": 20,
+    "product_type": "Tablet",
+    "product_attributes": { "color": "Silver", "tablet_brand": "Tablet", "storage_capacity": "256GB", "screen_size": "10.5 inches", "operating_system": "iOS" },
+    "isPublished": true
+  },
+  {
+    "product_name": "Accessory Model D 36",
+    "product_thumb": "https://logodownload.org/wp-content/uploads/2022/04/javascript-logo-0.png",
+    "product_description": "Accessory Model D 36 is a great product.",
+    "product_price": 49,
+    "product_quantity": 90,
+    "product_type": "Accessory",
+    "product_attributes": { "accessory_type": "Speaker", "brand": "Accessory", "color": "Red", "material": "Plastic" },
+    "isPublished": true
+  },
+  {
+    "product_name": "Smartphone 37",
+    "product_thumb": "https://logodownload.org/wp-content/uploads/2022/04/javascript-logo-0.png",
+    "product_description": "Smartphone 37 is a great product.",
+    "product_price": 699,
+    "product_quantity": 10,
+    "product_type": "Phone",
+    "product_attributes": { "color": "Blue", "brand": "Smartphone", "storage_capacity": "512GB", "screen_size": "6.9 inches", "battery_capacity": "5000mAh" },
+    "isPublished": true
+  },
+  {
+    "product_name": "Smartwatch 38",
+    "product_thumb": "https://logodownload.org/wp-content/uploads/2022/04/javascript-logo-0.png",
+    "product_description": "Smartwatch 38 is a great product.",
+    "product_price": 299,
+    "product_quantity": 25,
+    "product_type": "Watch",
+    "product_attributes": { "color": "Gray", "watch_brand": "Smartwatch", "band_material": "Metal", "watch_type": "Digital", "water_resistant": true },
+    "isPublished": true
+  },
+  {
+    "product_name": "Tablet 39",
+    "product_thumb": "https://logodownload.org/wp-content/uploads/2022/04/javascript-logo-0.png",
+    "product_description": "Tablet 39 is a great product.",
+    "product_price": 499,
+    "product_quantity": 20,
+    "product_type": "Tablet",
+    "product_attributes": { "color": "Black", "tablet_brand": "Tablet", "storage_capacity": "256GB", "screen_size": "12 inches", "operating_system": "Android" },
+    "isPublished": true
+  },
+  {
+    "product_name": "Accessory 40",
+    "product_thumb": "https://logodownload.org/wp-content/uploads/2022/04/javascript-logo-0.png",
+    "product_description": "Accessory 40 is a great product.",
+    "product_price": 19,
+    "product_quantity": 150,
+    "product_type": "Accessory",
+    "product_attributes": { "accessory_type": "Charger", "brand": "Accessory", "color": "White", "material": "Plastic" },
+    "isPublished": true
+  },
+  {
+    "product_name": "Phone 41",
+    "product_thumb": "https://logodownload.org/wp-content/uploads/2022/04/javascript-logo-0.png",
+    "product_description": "Phone 41 is a great product.",
+    "product_price": 399,
+    "product_quantity": 35,
+    "product_type": "Phone",
+    "product_attributes": { "color": "Black", "brand": "Phone", "storage_capacity": "128GB", "screen_size": "6.5 inches", "battery_capacity": "3500mAh" },
+    "isPublished": true
+  },
+  {
+    "product_name": "Watch 42",
+    "product_thumb": "https://logodownload.org/wp-content/uploads/2022/04/javascript-logo-0.png",
+    "product_description": "Watch 42 is a great product.",
+    "product_price": 149,
+    "product_quantity": 40,
+    "product_type": "Watch",
+    "product_attributes": { "color": "Brown", "watch_brand": "Watch", "band_material": "Leather", "watch_type": "Analog", "water_resistant": false },
+    "isPublished": true
+  },
+  {
+    "product_name": "Tablet 43",
+    "product_thumb": "https://logodownload.org/wp-content/uploads/2022/04/javascript-logo-0.png",
+    "product_description": "Tablet 43 is a great product.",
+    "product_price": 299,
+    "product_quantity": 60,
+    "product_type": "Tablet",
+    "product_attributes": { "color": "Blue", "tablet_brand": "Tablet", "storage_capacity": "64GB", "screen_size": "10 inches", "operating_system": "Windows" },
+    "isPublished": true
+  },
+  {
+    "product_name": "Accessory 44",
+    "product_thumb": "https://logodownload.org/wp-content/uploads/2022/04/javascript-logo-0.png",
+    "product_description": "Accessory 44 is a great product.",
+    "product_price": 15,
+    "product_quantity": 120,
+    "product_type": "Accessory",
+    "product_attributes": { "accessory_type": "Phone Stand", "brand": "Accessory", "color": "White", "material": "Plastic" },
+    "isPublished": true
+  },
+  {
+    "product_name": "Smartphone 45",
+    "product_thumb": "https://logodownload.org/wp-content/uploads/2022/04/javascript-logo-0.png",
+    "product_description": "Smartphone 45 is a great product.",
+    "product_price": 799,
+    "product_quantity": 12,
+    "product_type": "Phone",
+    "product_attributes": { "color": "Gold", "brand": "Smartphone", "storage_capacity": "512GB", "screen_size": "6.8 inches", "battery_capacity": "4500mAh" },
+    "isPublished": true
+  },
+  {
+    "product_name": "Smartwatch 46",
+    "product_thumb": "https://logodownload.org/wp-content/uploads/2022/04/javascript-logo-0.png",
+    "product_description": "Smartwatch 46 is a great product.",
+    "product_price": 199,
+    "product_quantity": 70,
+    "product_type": "Watch",
+    "product_attributes": { "color": "Green", "watch_brand": "Smartwatch", "band_material": "Silicone", "watch_type": "Digital", "water_resistant": false },
+    "isPublished": true
+  },
+  {
+    "product_name": "Tablet 47",
+    "product_thumb": "https://logodownload.org/wp-content/uploads/2022/04/javascript-logo-0.png",
+    "product_description": "Tablet 47 is a great product.",
+    "product_price": 349,
+    "product_quantity": 25,
+    "product_type": "Tablet",
+    "product_attributes": { "color": "Gray", "tablet_brand": "Tablet", "storage_capacity": "128GB", "screen_size": "11 inches", "operating_system": "Android" },
+    "isPublished": true
+  },
+  {
+    "product_name": "Accessory 48",
+    "product_thumb": "https://logodownload.org/wp-content/uploads/2022/04/javascript-logo-0.png",
+    "product_description": "Accessory 48 is a great product.",
+    "product_price": 30,
+    "product_quantity": 80,
+    "product_type": "Accessory",
+    "product_attributes": { "accessory_type": "Portable Charger", "brand": "Accessory", "color": "Black", "material": "Plastic" },
+    "isPublished": true
+  },
+  {
+    "product_name": "Phone 49",
+    "product_thumb": "https://logodownload.org/wp-content/uploads/2022/04/javascript-logo-0.png",
+    "product_description": "Phone 49 is a great product.",
+    "product_price": 499,
+    "product_quantity": 50,
+    "product_type": "Phone",
+    "product_attributes": { "color": "Pink", "brand": "Phone", "storage_capacity": "256GB", "screen_size": "6.3 inches", "battery_capacity": "4000mAh" },
+    "isPublished": true
+  },
+  {
+    "product_name": "Watch 50",
+    "product_thumb": "https://logodownload.org/wp-content/uploads/2022/04/javascript-logo-0.png",
+    "product_description": "Watch 50 is a great product.",
+    "product_price": 249,
+    "product_quantity": 60,
+    "product_type": "Watch",
+    "product_attributes": { "color": "Black", "watch_brand": "Watch", "band_material": "Leather", "watch_type": "Analog", "water_resistant": true },
+    "isPublished": true
+  }
+]
