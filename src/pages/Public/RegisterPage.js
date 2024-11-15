@@ -14,6 +14,8 @@ import useAuth from "../../hooks/useAuth";
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as Yup from "yup";
+import { createNewCart } from "../../features/cart/cartSlice";
+import { useDispatch } from "react-redux";
 
 const RegisterSchema = Yup.object().shape({
   firstName: Yup.string().required("First Name is required"),
@@ -40,6 +42,7 @@ const defaultValues = {
 function RegisterPage() {
 
   const navigate = useNavigate();
+  const dispatch = useDispatch();
   const auth = useAuth();
 
   const methods = useForm({
@@ -56,9 +59,11 @@ function RegisterPage() {
   const onSubmit = async (data) => {
     const { firstName, lastName, phone, email, password } = data;
     try {
-      await auth.register({ firstName, lastName, phone, email, password }, () => {
-        navigate("/login", { replace: true });
-      });
+      const res = await auth.register({ firstName, lastName, phone, email, password })
+      console.log("Res - after auth.register: ", res)
+      console.log("Res.data.data - after auth.register: ", res.data.data)
+      await dispatch(createNewCart(res.data.data))
+      navigate("/login", { replace: true });
     } catch (error) {
       reset();
       setError("responseError", error);

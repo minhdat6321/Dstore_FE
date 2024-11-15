@@ -21,6 +21,11 @@ const slice = createSlice({
       state.isLoading = false;
       state.error = action.payload;
     },
+    createNewCartSuccess(state, action) {
+      state.isLoading = false;
+      state.error = null;
+      state.cart = action.payload;
+    },
     fetchCartSuccess(state, action) {
       state.isLoading = false;
       state.error = null;
@@ -48,6 +53,23 @@ const slice = createSlice({
 })
 
 export default slice.reducer
+
+export const createNewCart = (user) => async (dispatch) => {
+  try {
+    // Make the API request
+    const body = {
+      userId: user._id
+    }
+    const response = await apiService.post(`/cart/create`, body);
+
+    // Dispatch success action
+    dispatch(slice.actions.createNewCartSuccess(response.data.data));
+    console.log("create new cart: ", response.data.data);
+
+  } catch (error) {
+    dispatch(slice.actions.hasError(error.message));
+  }
+};
 
 export const fetchCart = () => async (dispatch) => {
   dispatch(slice.actions.startLoading());
