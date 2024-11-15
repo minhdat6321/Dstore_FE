@@ -13,17 +13,16 @@ function ProductList({ products }) {
   const dispatch = useDispatch(); // Use dispatch from redux
 
   const { user } = useAuth();
-  console.log("user: ", user)
   useEffect(() => {
     dispatch(fetchCart());
 
   }, [])
 
-  if (user !== null) {
-    if (!cart || !cart._id) {
-      return <LoadingScreen />; // Handle undefined `user.role`
-    }
-  }
+  // if (user !== null) {
+  //   if (!cart || !cart._id) {
+  //     return <LoadingScreen />; // Handle undefined `user.role`
+  //   }
+  // }
 
   return (
 
