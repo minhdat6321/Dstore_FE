@@ -9,20 +9,10 @@ import ProductCardForPublic from "./ProductCardForPublic";
 
 
 function ProductList({ products }) {
-  const { cart } = useSelector((state) => state.cart);
   const dispatch = useDispatch(); // Use dispatch from redux
 
   const { user } = useAuth();
-  useEffect(() => {
-    dispatch(fetchCart());
 
-  }, [])
-
-  // if (user !== null) {
-  //   if (!cart || !cart._id) {
-  //     return <LoadingScreen />; // Handle undefined `user.role`
-  //   }
-  // }
 
   return (
 
@@ -32,7 +22,7 @@ function ProductList({ products }) {
           {user === null || user.role === undefined ?
             <ProductCardForPublic product={product} />
             :
-            <ProductCard product={product} cartId={cart._id} user={user} />
+            <ProductCard product={product} cartId={user._id} user={user} />
 
           }
 
